@@ -13,11 +13,12 @@ apt-get install --no-install-recommends -y \
   dmidecode \
   ebtables \
   iproute2 \
-  libvirt-bin \
+  libvirt-clients \
+  libvirt-daemon-system \
   pm-utils \
-  qemu \
   qemu-block-extra \
   qemu-efi \
+  qemu-kvm \
   openvswitch-switch \
   kmod ;\
 groupadd -g ${GID} ${PROJECT} ;\
